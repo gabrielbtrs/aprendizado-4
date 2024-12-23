@@ -1,0 +1,651 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Young-Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    } 
+
+    .box1 {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 350px;
+        height: 84rem;
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+
+    .box1 img {
+        margin-top: 15px;
+        display: flex;
+        justify-self: center;
+        width: 320px;
+        border-radius: 0.5rem;
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        font-size: 25px;
+        margin-left: 13px;
+    }
+
+    #desc-p {
+        font-family: 'Outfit';
+        font-weight: 600;
+        margin-left: 13px;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box2 {
+        
+        margin-top: 15px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 320px;
+        height: 120px;
+        background-color:  hsl(330, 100%, 98%);
+    }
+
+    h3 {
+        margin-top: 8px;
+        margin-left: 13px;
+        font-family: 'Outfit';
+        font-weight: 700;
+        color:  hsl(332, 51%, 32%);
+    }
+
+    .box2 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+
+    .box2 li{
+        margin-left: 15px;
+    }
+
+    .pr-time {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 160px;
+        width: 320px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(14, 45%, 36%);
+        font-size: 23px;
+        margin-left: 13px;
+    }
+
+    .box3 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+
+    .box3 li{
+        margin-left: 15px;
+    }
+
+    p {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 480px;
+        width: 320px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+
+        
+    }
+
+    .box4 ul {
+        margin-top: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+
+    .box4 li{
+        margin-left: 28px;
+        font-size: 14px;
+        font-family: 'OutFit';
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    #pr-end {
+        margin-bottom: 10px;
+    }
+
+    .calories {
+        display: flex;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        gap: 9.1rem;
+        width: 320px;
+    }
+
+    .calories p {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .carbs {
+        display: flex;
+        gap: 10rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 320px;
+    }
+
+    .carbs p {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .protein {
+        display: flex;
+        gap: 9.5rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 320px;
+    }
+
+    .protein p {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .fat {
+        display: flex;
+        gap: 11.1rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 320px;
+    }
+
+    .fat p {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+}
+
+@media (min-width: 376px) and (max-width: 1439px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    } 
+
+    .box1 {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 500px;
+        height: 82rem;
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+
+    .box1 img {
+        margin-top: 15px;
+        display: flex;
+        justify-self: center;
+        width: 470px;
+        border-radius: 0.5rem;
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        font-size: 25px;
+        margin-left: 13px;
+    }
+
+    #desc-p {
+        font-family: 'Outfit';
+        font-weight: 600;
+        margin-left: 13px;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box2 {
+        margin-top: 15px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 470px;
+        height: 120px;
+        background-color:  hsl(330, 100%, 98%);
+    }
+
+    h3 {
+        margin-top: 8px;
+        margin-left: 13px;
+        font-family: 'Outfit';
+        font-weight: 700;
+        color:  hsl(332, 51%, 32%);
+    }
+
+    .box2 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box2 li{
+        margin-left: 15px;
+    }
+
+    .pr-time {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 160px;
+        width: 470px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(14, 45%, 36%);
+        font-size: 23px;
+        margin-left: 13px;
+    }
+
+    .box3 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box3 li{
+        margin-left: 15px;
+    }
+
+    p {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 390px;
+        width: 470px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+  
+    }
+
+    .box4 ul {
+        margin-top: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box4 li{
+        margin-left: 28px;
+        font-size: 14px;
+        font-family: 'OutFit';
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    #pr-end {
+        margin-bottom: 10px;
+    }
+
+    .calories {
+        display: flex;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        gap: 14.1rem;
+        width: 470px;
+    }
+
+    .calories p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .carbs {
+        display: flex;
+        gap: 15rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .carbs p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .protein {
+        display: flex;
+        gap: 14.4rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .protein p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .fat {
+        display: flex;
+        gap: 16rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .fat p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    } 
+
+    .box1 {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 500px;
+        height: 82rem;
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+
+    .box1 img {
+        margin-top: 15px;
+        display: flex;
+        justify-self: center;
+        width: 470px;
+        border-radius: 0.5rem;
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(24, 5%, 18%);
+        font-size: 25px;
+        margin-left: 13px;
+    }
+
+    #desc-p {
+        font-family: 'Outfit';
+        font-weight: 600;
+        margin-left: 13px;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box2 {
+        margin-top: 15px;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 470px;
+        height: 120px;
+        background-color:  hsl(330, 100%, 98%);
+    }
+
+    h3 {
+        margin-top: 8px;
+        margin-left: 13px;
+        font-family: 'Outfit';
+        font-weight: 700;
+        color:  hsl(332, 51%, 32%);
+    }
+
+    .box2 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box2 li{
+        margin-left: 15px;
+    }
+
+    .pr-time {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 160px;
+        width: 470px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'Young-Serif';
+        font-weight: 400;
+        color: hsl(14, 45%, 36%);
+        font-size: 23px;
+        margin-left: 13px;
+    }
+
+    .box3 ul {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box3 li{
+        margin-left: 15px;
+    }
+
+    p {
+        margin-left: 20px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box4 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 390px;
+        width: 470px;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+  
+    }
+
+    .box4 ul {
+        margin-top: 8px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: hsl(30, 10%, 34%);
+    }
+
+    .box4 li{
+        margin-left: 28px;
+        font-size: 14px;
+        font-family: 'OutFit';
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    #pr-end {
+        margin-bottom: 10px;
+    }
+
+    .calories {
+        display: flex;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        gap: 14.1rem;
+        width: 470px;
+    }
+
+    .calories p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .carbs {
+        display: flex;
+        gap: 15rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .carbs p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .protein {
+        display: flex;
+        gap: 14.4rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .protein p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .fat {
+        display: flex;
+        gap: 16rem;
+        align-self: center;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        width: 470px;
+    }
+
+    .fat p {
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+
+}
